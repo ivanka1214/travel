@@ -1,0 +1,24 @@
+.place__paragraphys {
+  padding-top: 48px;
+  padding-left: 40px;
+}
+
+@media screen and (max-width: 1024px) {
+  .place__paragraphys {
+    padding-left: 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__paragraphys {
+    padding-left: 28px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__paragraphys {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 32px;
+  }
+}
